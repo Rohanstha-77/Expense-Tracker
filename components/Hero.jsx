@@ -17,7 +17,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-4 sm:text-xl/relaxed">
-                Start Creating youe budget and Control your Money Floow
+                Start Creating youe budget and Control your Money Flow
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
