@@ -36,7 +36,7 @@ const layout = ({children}) => {
   return (
     <div>
         <div className='fixed md:w-64 hidden md:block '>
-            <SIdeNavBar/>
+          <SIdeNavBar/>
 
         </div>
         <div className='md:ml-64'>

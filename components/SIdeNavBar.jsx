@@ -5,6 +5,7 @@ import { menu } from '@/app/constant'
 import { UserButton } from '@clerk/nextjs'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import { Menu } from 'lucide-react'
 
 const SIdeNavBar = () => {
     const currentPath = usePathname()
@@ -12,8 +13,8 @@ const SIdeNavBar = () => {
     //     console.log(currentPath)
     // })
   return (
-    <>
-        <div className='h-screen p-5 border shadow-sm'>
+      <>
+        <div className='h-[100vh] p-5 border shadow-sm'>
             <Image
             src={logo}
             width={40}
@@ -31,7 +32,7 @@ const SIdeNavBar = () => {
                     </Link>
                 ))}
             </div>
-            <div className='fixed bottom-6 p-5 flex gap-2 items-center'>
+            <div className='fixed bottom-6 p-5 lg:flex  gap-2 hidden lg:items-center'>
                 <UserButton/>
                 Profile
             </div>
